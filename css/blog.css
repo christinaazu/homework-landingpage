@@ -125,11 +125,10 @@ h2 {
   font-size: 40px;
 }
 p {
-  font-weight: 100px;
+  font-weight: 100;
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   clear: both;
-  padding-bottom: 50px;
   color: #676464;
   padding-top: 20px;
 }
@@ -143,13 +142,16 @@ p {
   padding-left: 3px;
 }
 .mainhow {
-  font-weight: 600px;
+  font-weight: 600;
   font-size:24px;
   padding: 20px 0;
   float: right;
   clear: both;
 }
-
+.readmore {
+  text-decoration: none;
+  color: #033048;
+}
 
 
 /* ASIDE */
@@ -166,13 +168,15 @@ aside {
   font-weight: 100;
   font-size: 24px;
   text-decoration: none;
+  color: #033048;
 }
 .catnav nav{
   padding-bottom: 20px;
 }
-.aboutcontent p {
-  font-weight: 100;
+.aboutcontent {
+  font-weight: 600;
   font-size: 22px;
+  padding-bottom: 5px;
 }
 .about a {
   font-weight: 600;
@@ -183,6 +187,16 @@ aside {
   width: 220px;
   background-color: white;
   text-align: center;
+}
+#learnmore {
+  font-weight: 600;
+  font-size: 22px;
+}
+#learnmorelink {
+  color: #033048;
+}
+.ad {
+  padding-top: 20px;
 }
 h5 {
   padding-top: 30px;
@@ -241,7 +255,7 @@ a:active {
     color: #606161;
 }
 .catnav a:hover {
-  color: #606161;
+  color: #7fbf7f;
 }
 
 
